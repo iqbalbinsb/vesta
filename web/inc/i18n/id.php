@@ -3,6 +3,7 @@
  * Vesta language file
  * azuya (disketsa@gmail.com)
  * nothinux (taufik@nothinux.id)
+ * iqbal (id@aliqbal.net)
  */
 
 $LANG['id'] = array(
@@ -215,7 +216,7 @@ $LANG['id'] = array(
     'Quota'  => 'Kuota',
     'Autoreply'  => 'Balasan Otomatis',
     'Forward to'  => 'Teruskan ke',
-    'Do not store forwarded mail' => 'Jangan simpan terusan surel',
+    'Do not store forwarded mail' => 'Jangan simpan terusan email',
     'IMAP hostname'  => 'hostname IMAP',
     'IMAP port'  => 'port IMAP',
     'IMAP security'  => 'keamanan IMAP',
@@ -469,9 +470,9 @@ $LANG['id'] = array(
     'DELETE_RECORD_CONFIRMATION' => 'Apakah anda yakin akan menghapus record %s ?',
     'SUSPEND_RECORD_CONFIRMATION' => 'Apakah anda yakin akan menangguhkan record %s ?',
     'UNSUSPEND_RECORD_CONFIRMATION' => 'Apakah anda yakin akan membatalkan penangguhan record %s ?',
-    'DELETE_MAIL_ACCOUNT_CONFIRMATION' => 'Apakah anda yakin akan menghapus surel %s?',
-    'SUSPEND_MAIL_ACCOUNT_CONFIRMATION' => 'Apakah anda yakin akan menangguhkan surel %s ?',
-    'UNSUSPEND_MAIL_ACCOUNT_CONFIRMATION' => 'Apakah anda yakin akan membatalkan penangguhan surel %s?',
+    'DELETE_MAIL_ACCOUNT_CONFIRMATION' => 'Apakah anda yakin akan menghapus email %s?',
+    'SUSPEND_MAIL_ACCOUNT_CONFIRMATION' => 'Apakah anda yakin akan menangguhkan email %s ?',
+    'UNSUSPEND_MAIL_ACCOUNT_CONFIRMATION' => 'Apakah anda yakin akan membatalkan penangguhan email %s?',
     'DELETE_DATABASE_CONFIRMATION' => 'Apakah anda yakin akan menghapus basis data %s ?',
     'SUSPEND_DATABASE_CONFIRMATION' => 'Apakah anda yakin akan menangguhkan basis data %s ?',
     'UNSUSPEND_DATABASE_CONFIRMATION' => 'Apakah anda yakin akan membatalkan penangguhan basis data %s ?',
@@ -493,7 +494,7 @@ $LANG['id'] = array(
     'Invalid username or password'  => 'Nama pengguna atau kata sandi salah',
     'Invalid username or code'  => 'Kode atau nama pengguna salah',
     'Passwords not match'  => 'Kata sandi tidak sama',
-    'Please enter valid email address.'  => 'Masukkan alamat surel yang valid.',
+    'Please enter valid email address.'  => 'Masukkan alamat email yang valid.',
     'Field "%s" can not be blank.'  => 'Field "%s" tidak boleh kosong.',
     'Password is too short.'  => 'Kata sandi terlalu pendek (minimal 6 karakter)',
     'Error code:'  => 'Kode kesalahan: %s',
@@ -530,7 +531,7 @@ $LANG['id'] = array(
     'Reset'  => 'Reset',
     'Reset Code'  => 'Reset Kode',
     'RESET_NOTICE'  => '',
-    'RESET_CODE_SENT'  => 'Kode kata sandi untuk me-reset sudah dikirim ke surel<br>',
+    'RESET_CODE_SENT'  => 'Kode kata sandi untuk me-reset sudah dikirim ke email<br>',
     'MAIL_RESET_SUBJECT'  => 'Kata sandi di-reset pada %s',
     'PASSWORD_RESET_REQUEST' => "Untuk me-reset kata sandi, silahkan klik tautan ini:\nhttps://%s/reset/?action=confirm&user=%s&code=%s\n\natau ke https://%s/reset/?action=code&user=%s lalu masukan kode reset-nya:\n%s\n\nJika anda tidak meminta untuk me-reset kata sandi, silahkan abaikan pesan ini.\n\n--\nPanel Kontrol Vesta\n",
 
@@ -754,5 +755,5 @@ $LANG['id'] = array(
 
     'maximum characters length, including prefix' => 'maksimal jumlah karakter %s, termasuk prefix',
 
-    'Email Credentials' => 'Kredensial surel',
+    'Email Credentials' => 'Kredensial email',
 );
